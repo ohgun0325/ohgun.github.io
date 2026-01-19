@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: ohgun tech blog
 url: "https://ohgun.github.io"
+baseurl: ""
 locale: ko-KR
 email:
 description: >- # this means to ignore newlines until "baseurl:"
@@ -61,7 +62,7 @@ plugins:
 
 author:
   name   : "ohgun"
-  avatar : "/assets/images/avatar,png"
+  avatar : "/assets/images/avatar.png"
   bio    : "FASTAPI, LLM, ODA"
   links:
     - label: "Website"
